@@ -4,6 +4,7 @@ A C++ program to find the factorial of a number and display its expansion of fac
 using namespace std;
 
 // Find factorial using recursion
+
 int factorial(int n)
 {
     if(n <= 1) return 1;
@@ -19,7 +20,6 @@ int main()
 
     cout << "The expansion of " << number << " factorial is : ";
     
-    // Loop to print the sequence nicely (e.g., 1 * 2 * 3 = )
     for(int i = 1; i <= number; i++) {
         cout << i;
         if(i < number) {
