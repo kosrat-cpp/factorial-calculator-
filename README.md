@@ -3,6 +3,9 @@ A C++ program to find the factorial of a number and display its expansion of fac
 #include <iostream>
 using namespace std;
 
+#include <iostream>
+using namespace std;
+
 // Find factorial using recursion
 
 int factorial(int n)
@@ -34,3 +37,6 @@ int main()
 
     return 0;
 }
+
+
+
